@@ -33,7 +33,7 @@ namespace ph = std::placeholders;
 
 // This allows us to dictate which exceptions we SHOULD get.
 // We can use this to suppress expected exceptions, and take action
-// if we don't get an exception wqe should have gotten.
+// if we don't get an exception we should have gotten.
 struct ExceptionContract {
 	enum occurance_t { Never = 0, Possible = 1, Always = 2 };
 
